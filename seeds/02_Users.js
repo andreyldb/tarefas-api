@@ -5,9 +5,10 @@ exports.seed = function(knex, Promise) {
     .then(function () {
       // Inserts seed entries
       return knex('users').insert([
-        {email: 'Não estou entendendo muito bem'},
-        {email: 'Isso seria o usuário?'},
-        {email: 'Dúvida'}
+        {email: 'Andar com meu cachorrinho hoje'},
+        {email: 'Fazer a atividade de Minora'},
+        {email: 'Estudar para a matéria de Dani'},
+        {email: 'Pular na piscina segunda'},
       ]);
     });
 };

@@ -17,7 +17,7 @@ exports.up = function(knex, Promise) {
   }).createTable("users",function(table){
     // chave primária
     table.increments("oid");
-    table.string("email", 50);
+    table.string("email", 100);
  });
 };
 

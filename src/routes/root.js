@@ -2,8 +2,8 @@ const root = {
   method: "GET",
   path: "/",
   handler: (request, reply) => ({
-    version: "0.0.1",
-    title: "API do App Lista de tarefas"
+    version: "0.0.5",
+    title: "API do Bullet Jornal"
   })
 };
 
